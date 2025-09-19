@@ -17,7 +17,7 @@ class Laveur extends Thread {
 				Assiette assiette = new Assiette();
 				sleep(200+new Random().nextInt(1801));
 				// La mettre sur la pile
-				System.out.print("Un laveur empile " + assiette + " ");
+				System.out.println("Un laveur empile " + assiette + " ");
 				myStack.push(assiette);
 			} catch (InterruptedException ex) {
 				break; // Sort du while, termine le Thread;
